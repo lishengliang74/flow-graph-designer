@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import getDesigner, { colors } from "../src";
-import { render } from "react-dom";
+import ReactDOM from 'react-dom/client';
 import jsBeautify from "js-beautify";
 import process from "immer";
 const template = {
@@ -358,4 +358,5 @@ class App extends Component {
   }
 }
 
-render(<App />, document.getElementById("app"));
+const root = ReactDOM.createRoot(document.getElementById('app'));
+root.render(<App />);
