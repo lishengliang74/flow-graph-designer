@@ -2,7 +2,7 @@
 
 一个通过拖拽方式制作流程图的React组件。
 
-!!! 此仓库最初于2018年发布。由于我原来的GitHub账号丢失，我已将其转移至新申请的账号。 !!!
+!!! 此仓库最初于2018年发布。由于我原来的GitHub账号丢失，我已将其转移到此新申请的账号。 !!!
 
 If you wish to read the English version of the README, please click here: [English README](https://github.com/lishengliang74/flow-graph-designer/blob/master/README_en.md)
 

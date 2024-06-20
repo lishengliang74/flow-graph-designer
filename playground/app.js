@@ -80,7 +80,7 @@ class App extends Component {
           </select>
           <div>
             <h4 style={{ marginLeft: "10px", display: "inline-block" }}>
-              节点颜色：
+              template中可定义节点颜色，可选颜色：
             </h4>
             {colors.map(x => (
               <div
