@@ -173,7 +173,7 @@ class App extends Component {
         </div>
         <p style={{ textAlign: "center" }}>
           Powered by
-          <a href="https://github.com/censoft-corp/flow-graph-designer">
+          <a href="https://github.com/lishengliang74/flow-graph-designer">
             flow-graph-designer
           </a>.
         </p>

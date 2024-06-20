@@ -408,7 +408,7 @@ class Workspace extends React.Component {
     const arrowClassName = hasArrow ? "arrow-line" : "";
     const dragoverClassName =
       this.state.containerId === containerId &&
-      this.state.containerIndex === containerIndex
+        this.state.containerIndex === containerIndex
         ? "dragover"
         : "";
     return (
@@ -441,9 +441,8 @@ class Workspace extends React.Component {
         <div
           key={node.id}
           onClick={this.handleClick(node.id)}
-          className={`${unexpandState ? "unexpand" : ""} flow-node loop ${
-            this.state.dragId === node.id ? "draged" : ""
-          } ${this.state.currentId === node.id ? "clicked" : ""}`}
+          className={`${unexpandState ? "unexpand" : ""} flow-node loop ${this.state.dragId === node.id ? "draged" : ""
+            } ${this.state.currentId === node.id ? "clicked" : ""}`}
           draggable="true"
           onDragStart={this.handleDragStart(node.id)}>
           <div className="title" onClick={this.handleClickExpandIcon(node.id)}>
@@ -479,9 +478,8 @@ class Workspace extends React.Component {
       return (
         <div
           key={node.id}
-          className={`${unexpandState ? "unexpand" : ""} flow-node switch ${
-            this.state.dragId === node.id ? "draged" : ""
-          } ${this.state.currentId === node.id ? "clicked" : ""}`}
+          className={`${unexpandState ? "unexpand" : ""} flow-node switch ${this.state.dragId === node.id ? "draged" : ""
+            } ${this.state.currentId === node.id ? "clicked" : ""}`}
           draggable="true"
           onClick={this.handleClick(node.id)}
           onDragStart={this.handleDragStart(node.id)}>
@@ -511,9 +509,8 @@ class Workspace extends React.Component {
                 </div>
                 <div className="flow-node-rect-wrap">
                   <div
-                    className={`flow-node-rect ${
-                      this.state.dragId === x.id ? "draged" : ""
-                    } ${this.state.currentId === x.id ? "clicked" : ""}`}
+                    className={`flow-node-rect ${this.state.dragId === x.id ? "draged" : ""
+                      } ${this.state.currentId === x.id ? "clicked" : ""}`}
                     draggable="true"
                     onClick={this.handleClick(x.id)}
                     onDragStart={this.handleDragStart(x.id)}
@@ -575,9 +572,8 @@ class Workspace extends React.Component {
     return (
       <div
         key={node.id}
-        className={`flow-node normal ${
-          this.state.dragId === node.id ? "draged" : ""
-        } ${this.state.currentId === node.id ? "clicked" : ""}`}
+        className={`flow-node normal ${this.state.dragId === node.id ? "draged" : ""
+          } ${this.state.currentId === node.id ? "clicked" : ""}`}
         style={{
           backgroundColor: color,
           boxShadow: `0 0 0 2px white, 0 0 0 3px ${color}`,
@@ -618,10 +614,9 @@ class Workspace extends React.Component {
   }
   render() {
     if (!this.state._has_getDerivedStateFromProps_func) {
-      console.error(
-        "Component flow-graph-designer need react with version 16.4 or above."
+      console.warn(
+        "Component flow-graph-designer need react with version 16.3 or above."
       );
-      return null;
     }
     if (!this.state.data) {
       return null;
