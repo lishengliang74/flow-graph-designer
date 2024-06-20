@@ -1,29 +1,28 @@
 # flow-graph-designer
 
-一个通过拖拽方式制作流程图的React组件。
+A react component that make flow graph by drag & drop.
 
-!!! 此仓库最初于2018年发布。由于我原来的GitHub账号丢失，我已将其转移至新申请的账号。 !!!
+!!! This repository was originally published in 2018. As my original GitHub account was lost, I have transferred it to my newly applied account. !!!
 
-If you wish to read the English version of the README, please click here: [README_en.md]
+如果你希望阅读中文版的README，请点击这里：[中文版README](README.md)
 
-**特点 feature**
+**feature**
+- auto layout
+- colorized node
+- mouse drag & drop support
+- copy & paste whether in one page or across multi pages
+- undo/redo support
+- action detail info
 
-- 自动布局
-- 节点着色
-- 支持鼠标拖拽
-- 支持单页面或多页面间复制粘贴
-- 支持撤销/重做
-- 展示操作详情信息
+##useage
 
-## 用法
-
-**安装:**
+**install:**
 
 ```
 npm install flow-graph-designer
 ```
 
-**使用:**
+**use:**
 
 ```
 import React from 'react';
@@ -42,7 +41,7 @@ React.render(
 )
 ```
 
-**属性**
+**props**
 
 theme:
 
@@ -105,20 +104,14 @@ data:
   ]
 }
 ```
-## 开发
+## develop
 
-**克隆**
+**clone**
 ```
 git clone https://github.com/lishengliang74/flow-graph-designer.git
 ```
 
-**安装依赖**
-
-!!!推荐 pnpm
-```
-pnpm install
-```
-
+**init**
 ```
 yarn
 ```
@@ -129,18 +122,24 @@ or
 npm install
 ```
 
-**启动开发**
+**start**
 ```
-pnpm run start
+yarn run start
 ```
 
-**功能展示**
+or 
 
-启动开发后将打开功能展示页面， URL 是： http://localhost:8080/
+```
+npm run start
+```
+
+**playground**
+
+there are a playground site.The url is  http://localhost:8080/
 
 ![playground image](https://raw.githubusercontent.com/censoft-corp/flow-graph-designer/master/playground.png)
 
-## 发布
+## publish
 
 set npm register server if necessary
 ```
