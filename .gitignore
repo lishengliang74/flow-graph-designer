@@ -5,3 +5,4 @@ dist
 lib
 yarn.lock
 pnpm-lock.yaml
+yarn-error.log
