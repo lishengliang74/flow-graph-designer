@@ -1,5 +1,8 @@
 # flow-graph-designer
+
 A react component that make flow graph by drag & drop.
+
+!!! This repository was originally published in 2018. As my original GitHub account was lost, I have transferred it to my newly applied account. !!!
 
 **feature**
 
