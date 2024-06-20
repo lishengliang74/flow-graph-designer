@@ -4,7 +4,7 @@ A react component that make flow graph by drag & drop.
 
 !!! This repository was originally published in 2018. As my original GitHub account was lost, I have transferred it to my newly applied account. !!!
 
-如果你希望阅读中文版的README，请点击这里：[中文版README](README.md)
+如果你希望阅读中文版的README，请点击这里：[中文版README](https://github.com/lishengliang74/flow-graph-designer/blob/master/README.md)
 
 **feature**
 - auto layout
